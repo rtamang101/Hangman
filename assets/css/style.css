@@ -1,0 +1,38 @@
+#jumbotron {
+	text-align: center;
+}
+h1, h2{
+	text-align: center;
+}
+button{
+	margin: 10px;
+	align-items: center;
+}
+.container {
+	align-items: center;
+}
+#word{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 10px;
+	margin: 5px;
+}
+#execute{
+	display: block;
+	text-align: center;
+	font-size: 24px;
+}
+#wins, #loss, #tries, #guess{
+	padding:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-align: center;
+
+}
+.panel-heading{
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Welcome to Hangman!</h1>
+    
+        <h2>Your category is : Rock Band's Name</h2>
+ 
+    </div>
+    <div class="wrapper">
+        <h4 id="execute">Press any Key to start</h4>
+    </div> 
+    <div class="container">
+        
+        <div class="word" id="word"><p></p></div>
+
+        <div class="row">
+            <div class="col col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">No. of loss</div>
+                    <div class="panel-body" id="loss"></div>
+                </div>
+            </div>
+            <div class="col col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">No. of wins</div>
+                    <div class="panel-body" id="wins"></div>
+                </div>
+            </div>
+            <div class="col col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Tries left</div>
+                    <div class="panel-body" id="tries"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+        <div class="col col-lg-8 col-lg-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Gussed Letter So Far!</div>
+                <div class="panel-body" id="guess"></div>
+            </div>            
+        </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+<script src="assets/java/hangman.js"></script>
+</body>
+</html>
